@@ -13,7 +13,8 @@ const TagsList = ({recipes}) =>{
                 const [text, value] = tag
                 return (
                 // leva para a single page da receita:
-                <Link to={`/${text}`} key={index}> 
+                //<Link to={`/${text}`} key={index}>
+                   <Link to={`/`} key={index}>  
                     {text} ({value})
                 </Link>
                 )
